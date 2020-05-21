@@ -31,7 +31,7 @@ public class Main {
 		System.out.println("True.");
 	}
 	
-	isZero = false;
+//	isZero = false;
 	boolean notZero = isZero ? true : false;
 	if(notZero) {
 		System.out.println("Got some remainder.");
