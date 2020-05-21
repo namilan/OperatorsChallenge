@@ -23,12 +23,14 @@ public class Main {
 	answer = answer * 100.00;
 	System.out.println("Total = " + answer);
 	
-		
+	answer = answer % 40.00;
+	System.out.println("Total = " + answer);
+	
+	boolean isZero = false;
+	if(!isZero) {
+		System.out.println("True.");
+	}
 
-//	
-//	result = result * 100;
-//	System.out.println("100 * 100 = " + result);
-//	
 //	result = result % 1000;
 //	System.out.println("1000 % 1000 = " + result);
 //	
