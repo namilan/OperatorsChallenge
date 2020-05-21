@@ -19,6 +19,10 @@ public class Main {
 	second_number = 80.00;
 	answer = first_number + second_number;
 	System.out.println("Total = " + answer);
+	
+	answer = answer * 100.00;
+	System.out.println("Total = " + answer);
+	
 		
 
 //	
