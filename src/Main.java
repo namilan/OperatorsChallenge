@@ -30,12 +30,12 @@ public class Main {
 	if(!isZero) {
 		System.out.println("True.");
 	}
-
-//	result = result % 1000;
-//	System.out.println("1000 % 1000 = " + result);
-//	
-//	result = result % 40; 
-//	System.out.println("1000 % 40 = " + result);
+	
+	isZero = false;
+	boolean notZero = isZero ? true : false;
+	if(notZero) {
+		System.out.println("Got some remainder.");
+	}
 	
 	}
 	
